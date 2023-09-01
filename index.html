@@ -9,17 +9,44 @@
     <title>Frontend Bootcamp</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div class="container">
             <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#hide"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="hide">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">What you'll learn</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Questions</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Instructors</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-link">What you'll learn</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Questions</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Instructor</a></li>
-            </ul>
-        </div>
+        
     </nav>
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning">Web Developer</span></h1>
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iure odio quos quia ex nesciunt omnis voluptatem accusantium harum cumque magni tempore nulla distinctio sequi sapiente, fuga aperiam consectetur ipsum.</p>
+                    <button class="btn btn-primary btn-lg ">Start the enrollement</button>
+                </div>
+                <img src="/GettyImages-916307726-2.jpg" class="img-fluid w-50 d-none d-sm-block" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- New area -->
+    <section class="bg-primary text-light p-5 p-lg-0 pt-lg-0">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                    <h2 class="mb-3 mb-md-0">Sign Up For Free</h2>
+                <div class="input-group">
+                    <input type="text" class="form-control newform">
+                    <button class="btn btn-dark btn-lg">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

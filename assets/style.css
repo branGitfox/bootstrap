@@ -1,2 +1,6 @@
-
+@media(max-width:768px){
+    .newform{
+        width: 50%;
+    }
+}
 
