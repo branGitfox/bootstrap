@@ -1,6 +1,11 @@
-@media(max-width:768px){
+@media(min-width:768px){
     .newform{
         width: 50%;
     }
 }
 
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
